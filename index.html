@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculation of Test Percentage</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./favicon/calculationofTestPercentageIcon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="bigContainer">
+      <p id="title">محاسبه درصد</p>
+      <input
+        type="number"
+        name="allTests"
+        id="allTests"
+        placeholder="تعداد کل تست ها"
+      />
+      <input
+        type="number"
+        name="correctTests"
+        id="correctTests"
+        placeholder="تعداد تست های صحیح"
+      />
+      <input
+        type="number"
+        name="wrongTests"
+        id="wrongTests"
+        placeholder="تعداد تست های غلط"
+      />
+      <button id="calculatorButton">محاسبه درصد</button>
+    </div>
+    <div class="smallContainer">
+      <p id="show">عدد درصد</p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
